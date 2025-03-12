@@ -1,0 +1,6 @@
+def oddevencheck(number):
+    if number % 2 == 0:
+        print("Ce chiffre est pair")
+    else:
+        print("Ce chiffre est impair")
+(oddevencheck(2))    
