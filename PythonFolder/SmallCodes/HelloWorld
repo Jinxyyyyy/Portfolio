@@ -1,2 +1,4 @@
+# Must do starter function/program for every developper
+
 def print_hello():
     print("Hello, World!")
