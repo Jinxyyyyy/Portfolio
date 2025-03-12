@@ -1,5 +1,7 @@
+# Function that check if the number input is odd or even.
+
 def oddevencheck(number):
-    if number % 2 == 0:
+    if number % 2 == 0:    # If == 0 then no remainder, therefore even
         print("Ce chiffre est pair")
     else:
         print("Ce chiffre est impair")
