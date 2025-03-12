@@ -1,0 +1,5 @@
+# Function that prints all number from one to ten
+def onetoten():
+    for i in range(1,11):  # Loop from 1 to 10
+        print(i)
+onetoten()  
