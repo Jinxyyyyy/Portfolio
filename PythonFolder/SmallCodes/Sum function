@@ -1,0 +1,5 @@
+# Function that returns the sums of all the integers up to the input number
+
+def sum(number):
+    print((number * (number + 1)) / 2) # Formula for the sum 
+sum(6)    
