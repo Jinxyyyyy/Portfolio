@@ -1,0 +1,9 @@
+# Rectangle area calculation with user input
+
+def RectangleArea():
+    length = input("Enter a length for the rectangle:")
+    height = input("Enter a height for the rectangle:")
+    area = float(length) * float(height)
+    print(f"The area is {area} cm²")
+
+RectangleArea()
