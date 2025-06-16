@@ -1,0 +1,23 @@
+# Madlibs program (Game where you create a story by filling in blanks with your choice of words)
+
+def madlibs():
+    adjective = input("Enter an adjective:")
+    food = input("Enter a breakfast food:")
+    sports = input("Enter a sport:")
+    name = input("Enter a name:")
+    age = input("Enter an age:")
+    flavor = input("Enter a icecream flavor:")
+    transportationmethod = input("Enter a transportation method:")
+    number = input("Enter a number:")
+    bookname = input("Enter a book name:")
+
+
+
+    print(f"Today I woke up on a {adjective} day. I decided to eat {food} for breakfast.")
+    print(f"Afterwards, I decided to go practice {sports} with my friend {name} with whom")
+    print(f"I've been friends with since the age of {age}. When we finished, we decided to")
+    print(f"get ice cream at our favorite place called and I chose my favorite flavor {flavor}.")
+    print(f"Then, I came back home by {transportationmethod} and arrived at {number} pm.")
+    print(f"Before bed I decided to read my favorite book called {bookname} and I fell asleep.")
+
+madlibs()
