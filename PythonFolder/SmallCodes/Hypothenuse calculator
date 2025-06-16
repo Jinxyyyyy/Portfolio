@@ -1,0 +1,13 @@
+# Program to compute the hypothenuse of a triangle
+import math
+
+def findHypotenuse():
+
+    longerSide = input(f"Enter the longer side length:")
+    shorterSide = input("Enter the shorter side length:")
+    hypothenuse = math.sqrt(float(longerSide) ** 2 + float(shorterSide) ** 2)
+
+    print(f"The hypothenuse is {hypothenuse}")
+
+
+findHypotenuse()
