@@ -1,0 +1,12 @@
+# Shopping cart program with item price and quantity
+
+def shoppingCart():
+    item = input("Enter an item you would like to buy:")
+    quantity = input("Enter the quantity you would like to buy:")
+    price = input("Enter the price of them item:")
+
+    totalPrice = float(quantity) * float(price)
+
+    print(f"You have bought {quantity} {item} for {price} which amounts to a total of {totalPrice}")
+
+shoppingCart()
