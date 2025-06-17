@@ -1,0 +1,17 @@
+# weight converter calculator program
+
+def weightConversion():
+
+    weight = float(input(f"Enter a weight:"))
+    unit = input(f"Enter a unit(lbs or kg):")
+
+    if unit == "lbs":
+        conversion = weight / 2.2
+        print(f"{weight} {unit} is equal to {conversion} kg")
+    elif unit == "kg":
+        conversion = weight * 2.2
+        print(f"{weight} {unit} is equal to {conversion} lbs")
+    else:
+        print(f"{unit} is not valid")
+
+weightConversion()
