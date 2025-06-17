@@ -1,0 +1,21 @@
+# python calculator program with + , - , *, /
+
+
+def recursiveCalculator():
+    operator = input(f"Enter an operator:")
+    firstNumber = float(input(f"Enter the first number:"))
+    secondNumber = float(input(f"Enter the second number:"))
+
+    if operator == "+":
+        print(firstNumber + secondNumber)
+    elif operator == "-":
+        print(firstNumber - secondNumber)
+    elif operator == "*":
+        print(firstNumber * secondNumber)
+    elif operator == "/":
+        print(firstNumber / secondNumber)
+    else:
+        print(f"{operator} is not a valid operator")
+    recursiveCalculator()
+
+recursiveCalculator()
