@@ -1,0 +1,17 @@
+# Validate username input exercise
+# Rule 1: No more than 12 characters
+# Rule 2: Must not contain spaces
+# Rule 3: Must not contain digits
+
+def usernameValidator():
+
+    username = input("Enter your username:")
+
+    if len(username) > 12:
+        print("Username must contain less than 12 characters")
+    if username.find(" ") != -1:
+        print("Must not contain spaces")
+    if username.isalpha() != -1:
+        print("Must not contain digits")
+        
+usernameValidator()
