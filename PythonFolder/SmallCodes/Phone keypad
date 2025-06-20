@@ -1,0 +1,18 @@
+# two dimensional phone keypad like this:
+# 1 2 3 
+# 4 5 6 
+# 7 8 9 
+# * 0 # 
+
+def phoneKeypad():
+
+    keypad = ((1, 2, 3),
+              (4, 5, 6),
+              (7, 8, 9),
+              ("*", 0, "#"))
+    for rows in keypad:
+        for nums in rows:
+            print(nums, end=" ")
+        print()
+
+phoneKeypad()
