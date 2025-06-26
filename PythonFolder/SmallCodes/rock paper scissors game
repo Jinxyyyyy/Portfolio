@@ -1,0 +1,35 @@
+# Rock Paper Scissors game ✊🖐️✌️
+import random
+
+def rockPaperScissors():
+    choice = ["rock","paper","scissors"]
+
+    while True:
+        yourChoice = input("Choose between rock paper and scissors:")
+        if yourChoice not in choice:
+            print("Invalid input! You must choose between rock paper and scissors")
+            continue
+        opponentChoice = random.choice(choice)
+        if yourChoice == opponentChoice:
+            print(f"It's a tie you both chose {yourChoice}")
+            continue
+        elif yourChoice == "rock" and opponentChoice == "scissors":
+            print(f"You win! You chose {yourChoice} and your opponent chose {opponentChoice}")
+            continue
+        elif yourChoice == "rock" and opponentChoice == "paper":
+            print(f"You lose! You chose {yourChoice} and your opponent chose {opponentChoice}")
+            continue
+        elif yourChoice == "paper" and opponentChoice == "scissors":
+            print(f"You lose! You chose {yourChoice} and your opponent chose {opponentChoice}")
+            continue
+        elif yourChoice == "paper" and opponentChoice == "rock":
+            print(f"You win! You chose {yourChoice} and your opponent chose {opponentChoice}")
+            continue
+        elif yourChoice == "scissors" and opponentChoice == "paper":
+            print(f"You win! You chose {yourChoice} and your opponent chose {opponentChoice}")
+            continue
+        elif yourChoice == "scissors" and opponentChoice == "rock":
+            print(f"You lose! You chose {yourChoice} and your opponent chose {opponentChoice}")
+            continue
+
+rockPaperScissors()
