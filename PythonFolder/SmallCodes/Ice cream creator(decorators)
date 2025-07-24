@@ -1,0 +1,61 @@
+# Program that lets you customize an ice cream
+
+
+def addCherry(function):
+    def wrapperFunction():
+        cherryChoice = input("Do you want to add a cherry on top?(Y/N):")
+        if cherryChoice == "Y":
+            print("You added a cherry!")
+        function()
+    return wrapperFunction
+
+
+def addSprinkles(function):
+    def wrapperFunction():
+        sprinklesChoice = input("Do you want to add sprinkles on your ice cream?(Y/N):")
+        if sprinklesChoice == "Y":
+            print("You added sprinkles!")
+        function()
+    return wrapperFunction
+
+
+def addFudgeDipping(function):
+    def wrapperfunction():
+        fudgeChoice = input("Do you want to dip your ice cream in fudge?(Y/N)")
+        if fudgeChoice == "Y":
+            print("You have dipped your ice cream in fudge!")
+        function()
+    return wrapperfunction
+
+def addNuts(function):
+    def wrapperfunction():
+        nutsChoice = input("Do you want to add nuts to your ice cream?(Y/N)")
+        if nutsChoice == "Y":
+            print("You added nuts to your ice cream!")
+        function()
+    return wrapperfunction
+
+
+
+def addWhippedCream(function):
+    def wrapperfunction():
+        creamChoice = input("Do you want to add whipped cream to your ice cream?(Y/N)")
+        if creamChoice == "Y":
+            print("You added whipped cream to your ice cream!")
+        function()
+    return wrapperfunction
+
+
+
+
+
+
+@addCherry
+@addSprinkles
+@addFudgeDipping
+@addNuts
+@addWhippedCream
+def createIceCream():
+    print("Here is your ice cream!🍦")
+
+createIceCream()
