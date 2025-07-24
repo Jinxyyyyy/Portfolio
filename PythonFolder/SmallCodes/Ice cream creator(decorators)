@@ -45,16 +45,11 @@ def addWhippedCream(function):
         function()
     return wrapperfunction
 
-
-
-
-
-
-@addCherry
-@addSprinkles
-@addFudgeDipping
-@addNuts
-@addWhippedCream
+@addCherry          # createIcecream = addCherry(createIcecream)
+@addSprinkles       # createIcecream = addSprinkles(createIcecream)
+@addFudgeDipping    # createIcecream = addFudgeDipping(createIcecream)
+@addNuts            # createIcecream = addNuts(createIcecream)
+@addWhippedCream    # createIcecream = addWhippedCream(createIcecream)
 def createIceCream():
     print("Here is your ice cream!🍦")
 
