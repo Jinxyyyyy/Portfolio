@@ -1,0 +1,9 @@
+def compute_average(nums):
+    array_sum = sum(nums)
+    mean = array_sum / len(nums)
+    print(mean)
+
+
+
+
+compute_average([1,2,3,4,5])
