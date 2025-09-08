@@ -1,0 +1,17 @@
+from matplotlib import pyplot as plt
+import random
+array = []
+size = 10
+mean_total = random.randint(100,10000)
+for x in range (mean_total):
+    mean_tab = []
+    for y in range(size):
+        random_number = random.uniform(1.0,2.0)
+        mean_tab.append(random_number)
+    array.append(sum(mean_tab) / size)
+
+
+
+plt.figure()
+plt.hist(array, bins=20)
+plt.show()
