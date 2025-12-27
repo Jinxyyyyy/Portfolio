@@ -26,6 +26,7 @@ with open('path_to_file.pkl', 'rb') as f:
 # Access images and labels
 images = data['images']
 labels = data['labels']
+```
 ## 2. Inscription des équipes (22 novembre)
 Créer un compte Kaggle si vous n’en avez pas.
 
