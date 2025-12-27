@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="PythonFolder/PythonProjects/diabetic-rhinopathy-ml/kaggle2/disease_stages.png" width="500" title="Aperçu du fond d'oeil">
+</p>
+
+
 # Compétition 2 : Prédiction de la Diabetic Rhinopathy
 
 ## 1. Description
