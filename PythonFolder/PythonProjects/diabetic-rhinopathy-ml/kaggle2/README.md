@@ -1,4 +1,4 @@
-# Diabetic Retinopathy Prediction ML Project
+# Compétition 2 : Prédiction de la Diabetic Rhinopathy
 
 ## 1. Description
 
