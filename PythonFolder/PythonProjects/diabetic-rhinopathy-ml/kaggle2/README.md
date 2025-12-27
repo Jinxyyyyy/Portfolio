@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="PythonFolder/PythonProjects/diabetic-rhinopathy-ml/kaggle2/disease_stages.png" width="500" title="Aperçu du fond d'oeil">
+  <img src="disease_stages.png" width="500" title="Aperçu du fond d'oeil">
 </p>
 
 
