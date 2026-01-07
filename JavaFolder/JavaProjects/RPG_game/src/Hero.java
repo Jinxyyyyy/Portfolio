@@ -46,7 +46,7 @@ public class Hero{
             }
         }
     }
-    
+
     public int getHealth(){
         return health;
     }
